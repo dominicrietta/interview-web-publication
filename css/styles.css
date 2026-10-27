@@ -51,7 +51,7 @@
 		--color-page-bg: #082a33;
 		--color-text: #fff1cf;
 		--color-accent: #e8935a;
-		--color-date: #f2c14e;
+		--color-date: #F2BB4E;
 		--color-border: #fff1cf;
 		--color-grid: #d8cfbb;
 		--color-image-placeholder: #17414b;
@@ -100,7 +100,6 @@ img {
 	}
 }
 
-/* color: transparent hides broken-image alt text; remove it once real images are in */
 .interview__image,
 .interview-page__portrait,
 .interview-page__image {
@@ -142,7 +141,6 @@ button {
 	}
 }
 
-/* Three lines drawn as three background gradients */
 .top-bar__menu {
 	width: var(--size-300);
 	height: var(--size-200);
@@ -204,7 +202,6 @@ button {
 	}
 }
 
-/* Nav links: plain text with an underline that draws in on hover */
 .top-bar__nav a,
 .site-header__nav a {
 	padding-bottom: .2em;
@@ -217,7 +214,7 @@ button {
 	}
 }
 
-/* Color mode button: fixed pill, bottom right. Its text is set by js/scripts.js */
+/* Color mode button set by js/scripts.js */
 .top-bar__mode {
 	position: fixed;
 	right: var(--space-200);
@@ -307,13 +304,11 @@ button {
 
 /* 5. LANDING PAGE: COLLAGE */
 
-/* Pulled up behind the header so the lines start above the masthead card.
-   If lines.svg is too dark in dark mode, add a light-lined copy and swap it
-   in with a .dark-mode .interviews-page rule. */
+/* Pulled up behind the header so the lines start above the masthead card. */
 .interviews-page {
 	margin: -19.3rem auto 0;
 	padding: 19.3rem 0 0;
-	background-image: url("../images/lines.svg");
+	background-image: url("../images/lines 2.svg");
 	background-repeat: repeat-y;
 	background-size: 34.45rem auto;
 	background-position: 50% 0;
@@ -359,7 +354,6 @@ button {
 	box-shadow: 0 0 0 1px var(--color-border);
 }
 
-/* The date is centred on a point (--dx, --dy) and tilted by --dr */
 .interview__date {
 	position: absolute;
 	z-index: 2;
@@ -377,7 +371,6 @@ button {
 	}
 }
 
-/* Per card: position (--x, --y), width (--w), shape (--ratio) and date label */
 .interview--one {
 	--x: 20.9%; --y: 0rem; --w: 59.5%; --ratio: 288 / 353; --dx: 19%; --dy: 4.5%; --dr: -20deg;
 
@@ -461,7 +454,6 @@ button {
 	}
 }
 
-/* Display type: the name and the pull quotes */
 .interview-page__name,
 .interview-page__quote-text {
 	color: var(--color-accent);
@@ -508,7 +500,6 @@ button {
 	}
 }
 
-/* Shared body copy: the bio and the answers */
 .interview-page__bio,
 .interview-page__answer {
 	color: var(--color-grid);
@@ -568,8 +559,7 @@ button {
 	}
 }
 
-/* Desktop: every block spans both columns. A block's placement modifier
-   (section 6c) sets --align, --width, --max-width and so on to move it. */
+/* Desktop: every block spans both columns. A block's placement modifier (6c) sets parameters to move it. */
 .interview-page__qa,
 .interview-page__project,
 .interview-page__quote {
@@ -606,7 +596,6 @@ button {
 	}
 }
 
-/* Desktop: image in the right column, caption turned sideways on its left */
 .interview-page__project {
 	@media screen and (min-width: 1024px) {
 		display: grid;
@@ -647,7 +636,6 @@ button {
 	}
 }
 
-/* The quote's margins add to the gap, so it gets more room than the rest */
 .interview-page__quote {
 	margin: var(--space-200) 0;
 	text-align: center;
