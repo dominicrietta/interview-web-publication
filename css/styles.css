@@ -520,7 +520,7 @@ button {
 .interview-page__bio {
 	grid-area: bio;
 	margin: var(--space-500) 0 0;
-	padding-inline: var(--space-100);
+	padding-inline: var(--space-090) 0;
 
 	@media screen and (min-width: 1024px) {
 		max-width: 25rem;
