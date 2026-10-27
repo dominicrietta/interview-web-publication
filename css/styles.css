@@ -26,7 +26,7 @@
 	--color-page-bg: #fff1cf;
 	--color-text: #075b72;
 	--color-accent: #dc8044;
-	--color-date: #A33058;
+	--color-date: #B5381C;
 	--color-border: #075b72;
 	--color-grid: #554d43;
 	--color-image-placeholder: #e1c69d;
@@ -50,8 +50,8 @@
 	.dark-mode {
 		--color-page-bg: #082a33;
 		--color-text: #fff1cf;
-		--color-accent: #e8935a;
-		--color-date: #F2BB4E;
+		--color-accent: #ECC386;
+		--color-date: #F1AF45;
 		--color-border: #fff1cf;
 		--color-grid: #d8cfbb;
 		--color-image-placeholder: #17414b;
