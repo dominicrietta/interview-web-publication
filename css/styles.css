@@ -26,7 +26,7 @@
 	--color-page-bg: #fff1cf;
 	--color-text: #075b72;
 	--color-accent: #dc8044;
-	--color-date: #B5291C;
+	--color-date: #A33058;
 	--color-border: #075b72;
 	--color-grid: #554d43;
 	--color-image-placeholder: #e1c69d;
@@ -525,6 +525,7 @@ button {
 	@media screen and (min-width: 1024px) {
 		max-width: 25rem;
 		margin-top: var(--space-600);
+		padding-inline: var(--space-100);
 		font-size: var(--size-200);
 		line-height: 1.45;
 	}
@@ -668,9 +669,9 @@ button {
 
 
 /* 6c. Desktop placement, in page order 
-   Add one of these modifier classes to each project or quote in the HTML.
-   --align is the side of the page, --width / --max-width the block size,
-   --image-ratio the shape of a project's image. */
+   Modifier classes in the HTML.
+   --align = side of the page, --width / --max-width = the block size,
+   --image-ratio = the shape of a project's image. */
 
 .interview-page__project--right { --align: end;   --width: 59%; --image-ratio: 3 / 2; }
 .interview-page__project--left  { --align: start; --width: 36%; --image-ratio: 2 / 3; }
@@ -748,7 +749,7 @@ button {
 }
 
 .site-footer__nav a {
-	font-weight: 500;
+	font-weight: 400;
 	letter-spacing: .03rem;
 }
 
