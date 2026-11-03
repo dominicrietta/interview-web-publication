@@ -694,7 +694,7 @@ button {
 
 	@media screen and (min-width: 1024px) {
 		margin: var(--space-400) 0;
-		max-width: var(--max-width, none);
+		max-width: min(var(--max-width, 100%), 50rem);
 		text-align: var(--text-align, center);
 	}
 }
